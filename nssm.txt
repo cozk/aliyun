@@ -1,0 +1,14 @@
+cmd进入到win64，然后运行nssm install <servername>注册服务(nssm remove <servername>删除服务)
+
+Path:对应的node.exe
+Startup directory:项目对应的根目录
+Arguments:.\bin\www
+
+启动 停止 重启
+nssm start <servicename>
+nssm stop <servicename>
+nssm restart <servicename>
+
+
+查询状态
+nssm status <servicename>
